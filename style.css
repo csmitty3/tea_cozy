@@ -1,0 +1,97 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 69px;
+}
+nav h4 {
+    text-decoration: underline;
+    padding: 10px;
+}
+#logo {
+    position: absolute;
+    left: 10px;
+    height: 50px;
+}
+main {
+    position: relative;
+    top: 69px;
+}
+#image {
+    background-image: url('images/img-mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+body {
+    margin: 0;
+}
+#mission {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+div img {
+    height: 200px;
+    width: 300px;
+}
+#month {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#pics {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+#pics h4 {
+    margin: 10px;
+}
+#locations {
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    background-image: url('images/img-locations-background.webp');
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+#locations div {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    opacity: 1;
+}
+#locations h2 {
+    width: 1200px;
+    
+}
+#teacozy {
+    height: 200px;
+    text-align: center;
+}
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
+a {
+    color: seashell;
+}
